@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+.left {
+  width: 45%;
+  top: 142px;
+
+  background-color: #0874ea;
+  height: 100vh;
+  left: 129px;
+  padding: 50px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.leftText {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: white;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.image {
+  width: 320px;
+  height: 444.55px;
+  top: 290.13px;
+  left: 298.7px;
+
+  background: url("../images/Imgs.png");
+}
+.right {
+  background-color: white;
+  height: 100vh;
+  padding: 50px 80px 10px 80px;
+}
+.rightLogoText {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.rightLogo {
+  width: 29.52px;
+  height: 33.87px;
+  top: 187.16px;
+  left: 817.66px;
+
+  background: url("../images/img-new-logo-low-quality.png");
+}
+.createAccText {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 35px;
+}
+.createAcc {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.forB {
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.inputs {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 20px;
+}
+.leftInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.inputText {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.input {
+  width: 252.6px;
+  height: 33.87px;
+  top: 16.82px;
+  border-radius: 3.53px;
+  border: 0.71px;
+  border: 1px solid #d1d1d1;
+}
+.checks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.checkLink {
+  display: flex;
+  justify-content: space-between;
+}
+.a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #007aff;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  text-align: right;
+}
+.checkInput {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.checkbox {
+  width: 14.11px;
+  height: 14.11px;
+  border-radius: 1.41px;
+  border: 0.71px;
+}
+.checkSpan {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.buttons {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 30px;
+}
+.button1 {
+  width: 252.6px;
+  cursor: pointer;
+
+  height: 33.87px;
+  border-radius: 3.53px;
+  color: white;
+  border: none;
+  background-color: #007aff;
+}
+.button2 {
+  width: 252.6px;
+  height: 33.87px;
+  color: white;
+  cursor: pointer;
+  border-radius: 3.53px;
+  border: none;
+  background-color: #2d3748;
+}
+.buttonLogo {
+  width: 20px;
+  height: 20px;
+  top: 9.94px;
+  left: 66.02px;
+  background: url("../images/iconfinder_Google_1298745\ 1.png");
+}
+.login {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.footerImage {
+  width: 198.98px;
+  height: 29px;
+  background-image: url("../images/Buttns.png");
+}
